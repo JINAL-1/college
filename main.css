@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*general styling*/
+
+*{
+	box-sizing:border-box;
+	font-size: 10px;
+	line-height:0.8;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing:0.5px;
+	word-spacing:normal;
+	line-height: 1.25;
+}
+
+ 
+p,
+ul>li,
+ol>li{
+	font-size: 18px;
+	line-height: 1.95;
+}
+
+footer{
+  font-size: 1rem;
+  text-align: center;
+  line-height: 0.5;
+}
+
+ol>li{
+
+  font-size: 16px;
+}
+
+ul>li{
+
+  font-size: 16px;
+}
+
+/*---------navigation--------*/
+nav ul{
+	    display: flex;
+    list-style-type:none;
+	 float: right;
+	margin:5px;
+  }
+
+ nav ul li
+  {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    }
+
+nav ul li a{
+    text-decoration: none;
+    color: #C90A0E;
+    font-size: 20px;
+    transition: all 1s ease;
+	outline: none;
+    }
+nav > ul > li:nth-child(1)
+  {
+	background:#F7F3CA;
+  }
+
+   /*** add some hover effects**/
+
+nav ul li a:hover
+  {
+      color:red;
+      background:#5BDA86;
+  }
+
+/*---------------headings---------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	letter-spacing: inherit;
+}
+
+
+h1{
+	font-size: 36px;
+	line-height:1.5;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	margin:15px 10px 0 25px;
+	padding-top:45px;
+	color:#913D00;
+	background-image: url("https://images.unsplash.com/photo-1570975640108-2292d83390ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-position: center;
+	background-attachment: fixed;
+	height:450px;
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+h2,
+h3,
+h4,
+h5{
+	font-family: 'Oleo Script', cursive;
+	font-size: 24px;
+	line-height: 2;
+	color:#0453FD;
+	margin-left: 10px;
+}
+
+/****** section class first styling ************/
+section ul>li,
+section ol>li{
+	line-height: 1.15;
+	letter-spacing: 0.25px;
+	font-weight:500;
+}
+
+/********* general anchor tag ************/
+a{
+	font-size: 18px;
+	line-height: 1.35;
+	outline: none;
+  text-decoration: none;
+  display: inline-block;
+   text-align:center;
+	
+ }
+
+/************ section *********************/
+section a:link{
+	color:#950CD7;
+}
+
+section a:visited{
+  color:red;
+  }
+
+section a:focus{
+  color:#08E405;
+}
+
+section a:hover{
+	color:#0A9DE6;
+}
+
+section a:active{
+  color:#FF5200;
+}
+
+/********** aside that has programs styling**************/
+aside a:link{
+	color:#EF2FC0;
+}
+aside a:visited{
+  color:black;
+  }
+
+aside a:focus{
+  color:#1F0740;
+}
+
+aside a:hover{
+	color:#006AEF;
+}
+
+aside a:active{
+  color:#C0FF00;
+}
+
+/***************** footer styling***********/
+footer a
+{
+ outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid  #EA0609;
+  width: 20%;
+ text-align: center;
+  line-height:2;
+  background-color: #B7E455;
+  }
+
+footer a:link{
+color:#3864CD;
+}
+
+footer a:visited{
+  color:#C51873;
+  background-color: #B7E455;
+}
+
+footer a:focus{
+  background-color: #1F0740;
+}
+
+footer a:hover{
+  color: yellow;
+  background-color: grey;
+}
+
+footer a:active{
+  color:#C0FF00;
+  background-color: pink;
+}
